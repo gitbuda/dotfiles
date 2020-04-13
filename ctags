@@ -1,0 +1,5 @@
+--exclude=build
+--exclude=dist
+--exclude=docs
+--exclude=libs
+--exclude=.session.vim

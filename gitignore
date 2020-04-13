@@ -1,0 +1,24 @@
+# Ignore output files.
+*.out
+*.o
+*.pcm
+*.cyp
+*.deb
+
+# Ignore tmp files.
+*.sw[opnlm]
+*.~
+*.pyc
+
+# Ignore python3 virtualenv.
+ve3/
+
+# Ignore ctags.
+.tags
+
+# Ignore vim related files.
+.session.vim
+Session.vim
+profile.vim
+
+.ycm_extra_conf.py

@@ -1,0 +1,31 @@
+[core]
+    excludesfile = /home/buda/.gitignore
+
+[user]
+    name = Marko Budiselic
+    email = mbudiselicbuda@gmail.com
+
+[alias]
+    lol = log --oneline
+    co = checkout
+    ct = commit
+    adda = add --all .
+    st = status
+    dc = diff --cached -- ':!/**/package-lock.json'
+    dn = diff --name-only
+    cta = commit --amend --no-edit
+
+[diff]
+    tool = vimdiff
+
+[difftool]
+    prompt = false
+
+[merge]
+    tool = vimdiff
+
+[credential]
+    helper = cache --timeout=28800
+
+[push]
+    default = current
