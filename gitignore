@@ -21,4 +21,8 @@ ve3/
 Session.vim
 profile.vim
 
+# Ignore IDE config files.
 .ycm_extra_conf.py
+
+# Ignore debug data.
+gdb.breakpoints
