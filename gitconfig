@@ -11,7 +11,7 @@
     ct = commit
     adda = add --all .
     st = status
-    dc = diff --cached -- ':!/**/package-lock.json'
+    dc = diff --cached -- ':!/**/package-lock.json' ':!package-lock.json'
     dn = diff --name-only
     cta = commit --amend --no-edit
 
