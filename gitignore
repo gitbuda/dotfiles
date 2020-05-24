@@ -4,6 +4,7 @@
 *.pcm
 *.cyp
 *.deb
+*.mgql
 
 # Ignore tmp files.
 *.sw[opnlm]
