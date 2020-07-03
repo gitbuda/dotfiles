@@ -5,6 +5,7 @@
 *.cyp
 *.deb
 *.mgql
+*.parquet
 
 # Ignore tmp files.
 *.sw[opnlm]
