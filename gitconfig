@@ -14,6 +14,7 @@
     dc = diff --cached -- ':!/**/package-lock.json' ':!package-lock.json'
     dn = diff --name-only
     cta = commit --amend --no-edit
+    discard = "! git stash -q --include-untracked && git stash drop -q"
 
 [diff]
     tool = vimdiff
