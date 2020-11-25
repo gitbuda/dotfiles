@@ -2,7 +2,7 @@
 
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-dotfiles="bash_aliases ctags gitconfig gitignore tmux.conf"
+dotfiles="bash_aliases ctags gitconfig gitignore tmux.conf zshrc"
 
 for f in ${dotfiles}; do
     rm -rf "$HOME/.$f"
