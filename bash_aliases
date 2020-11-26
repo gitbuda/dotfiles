@@ -36,3 +36,6 @@ alias pysetupi="python setup.py install"
 
 # Frontend development
 alias ng-local="npx -p @angular/cli ng"
+
+# fzf
+alias fzfp="fzf --preview='batcat --color=always {}'"
