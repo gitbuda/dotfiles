@@ -29,3 +29,6 @@ profile.vim
 # Ignore debug data.
 .gdb_history
 gdb.breakpoints
+
+# Ignore clojure related files.
+.eastwood
