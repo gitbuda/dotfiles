@@ -22,6 +22,7 @@ ve3/
 .session.vim
 Session.vim
 profile.vim
+.vimspector.json
 
 # Ignore IDE config files.
 .ycm_extra_conf.py
