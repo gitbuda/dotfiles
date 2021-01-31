@@ -33,3 +33,6 @@ gdb.breakpoints
 
 # Ignore clojure related files.
 .eastwood
+
+# Ignore ccls language server config.
+.ccls
