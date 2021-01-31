@@ -1,5 +1,5 @@
 [core]
-    excludesfile = /home/buda/.gitignore
+    excludesfile = ~/.gitignore
 
 [user]
     name = Marko Budiselic
