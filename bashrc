@@ -140,3 +140,4 @@ export PATH="$PATH:${__SCRIPTS_PATH}/git"
 
 # shellcheck disable=SC1090
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+source "$HOME/.cargo/env"
