@@ -15,6 +15,8 @@ alias ga="git add"
 
 # Docker
 alias dk="docker"
+alias dkpc="docker container prune"
+alias dkpi="docker images prune"
 alias dkc="docker-compose"
 
 # Virtualenv
