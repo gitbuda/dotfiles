@@ -41,3 +41,6 @@ alias ng-local="npx -p @angular/cli ng"
 
 # fzf
 alias fzfp="fzf --preview='batcat --color=always {}'"
+
+# Memgraph
+alias fire="sudo runuser -l memgraph -c '/usr/lib/memgraph/memgraph --also-log-to-stderr'"
