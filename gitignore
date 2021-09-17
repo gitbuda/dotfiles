@@ -37,5 +37,7 @@ gdb.breakpoints
 # Ignore ccls language server config.
 .ccls
 
-# Ignore clangd LSP files.
+# Ignore LSP files.
 .cache
+.clangd
+compile_commands.json
