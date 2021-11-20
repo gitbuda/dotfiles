@@ -44,3 +44,4 @@ alias fzfp="fzf --preview='batcat --color=always {}'"
 
 # Memgraph
 alias fire="sudo runuser -l memgraph -c '/usr/lib/memgraph/memgraph --also-log-to-stderr'"
+alias fired="docker run -it --rm -p 7687:7687 memgraph --telemetry-enabled=False --also-log-to-stderr --log-level=TRACE"
