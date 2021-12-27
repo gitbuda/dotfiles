@@ -10,6 +10,8 @@ alias rtild="find . -name '*~' -delete"
 alias rall="rpyc && rswo && rswp && rtild"
 alias rnpm="rm -rf node_modules"
 
+alias makej="make -j$(nproc)"
+
 # Git
 alias ga="git add"
 
