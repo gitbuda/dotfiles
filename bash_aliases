@@ -1,8 +1,8 @@
 # General
-alias o="xdg-open"
+alias bash_reload="source ~/.bashrc"
 alias cwdir="rm -r ./*"
 alias directory_size='du -sh'
-
+alias o="xdg-open"
 alias rpyc="find . -name '*.pyc' -delete"
 alias rswo="find . -name '*.swo' -delete"
 alias rswp="find . -name '*.swp' -delete"
@@ -47,3 +47,4 @@ alias fzfp="fzf --preview='batcat --color=always {}'"
 # Memgraph
 alias fire="sudo runuser -l memgraph -c '/usr/lib/memgraph/memgraph --also-log-to-stderr'"
 alias fired="docker run -it --rm -p 7687:7687 memgraph --telemetry-enabled=False --also-log-to-stderr --log-level=TRACE"
+alias mgactivate="source /opt/toolchain-v4/activate"
