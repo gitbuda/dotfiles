@@ -44,6 +44,9 @@ alias ng-local="npx -p @angular/cli ng"
 # fzf
 alias fzfp="fzf --preview='batcat --color=always {}'"
 
+# CMake
+alias lscmake="cmake --build . --target help"
+
 # Memgraph
 alias fire="sudo runuser -l memgraph -c '/usr/lib/memgraph/memgraph --also-log-to-stderr'"
 alias fired="docker run -it --rm -p 7687:7687 memgraph --telemetry-enabled=False --also-log-to-stderr --log-level=TRACE"
