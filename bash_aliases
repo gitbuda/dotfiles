@@ -11,6 +11,9 @@ alias rall="rpyc && rswo && rswp && rtild"
 alias rnpm="rm -rf node_modules"
 
 alias makej="make -j$(nproc)"
+alias cmaked="cmake -DCMAKE_BUILD_TYPE=Debug .."
+alias cmaker="cmake -DCMAKE_BUILD_TYPE=Release .."
+alias cmakerd="cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo .."
 
 # Git
 alias ga="git add"
