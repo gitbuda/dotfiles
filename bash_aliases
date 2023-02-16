@@ -10,7 +10,13 @@ alias rtild="find . -name '*~' -delete"
 alias rall="rpyc && rswo && rswp && rtild"
 alias rnpm="rm -rf node_modules"
 
-alias makej="make -j$(nproc)"
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+  alias makej="make -j$(nproc)"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+  alias makej="make -j$(sysctl -n hw.physicalcpu)"
+else
+  echo "Unable to define makej alias because unknown OS"
+fi
 alias cmaked="cmake -DCMAKE_BUILD_TYPE=Debug .."
 alias cmaker="cmake -DCMAKE_BUILD_TYPE=Release .."
 alias cmakerd="cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo .."
