@@ -33,6 +33,7 @@ alias dkc="docker-compose"
 # Virtualenv
 alias ave3="source ve3/bin/activate"
 alias sve3="virtualenv -p python3 ve3"
+alias amg4="source /opt/toolchain-v4/activate"
 
 # Antlr
 alias antlr4='java -jar /usr/local/lib/antlr-4.7.1-complete.jar'
