@@ -30,10 +30,12 @@ alias dkpc="docker container prune"
 alias dkpi="docker images prune"
 alias dkc="docker-compose"
 
-# Virtualenv
+# Environments
 alias ave3="source ve3/bin/activate"
 alias sve3="virtualenv -p python3 ve3"
 alias amg4="source /opt/toolchain-v4/activate"
+alias sbh="source ~/.bashrc"
+alias szs="source ~/.zshrc"
 
 # Antlr
 alias antlr4='java -jar /usr/local/lib/antlr-4.7.1-complete.jar'
@@ -60,4 +62,3 @@ alias lscmake="cmake --build . --target help"
 # Memgraph
 alias fire="sudo runuser -l memgraph -c '/usr/lib/memgraph/memgraph --also-log-to-stderr'"
 alias fired="docker run -it --rm -p 7687:7687 memgraph --telemetry-enabled=False --also-log-to-stderr --log-level=TRACE"
-alias mgactivate="source /opt/toolchain-v4/activate"
