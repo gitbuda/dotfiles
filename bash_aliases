@@ -23,6 +23,7 @@ alias cmakerd="cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo .."
 
 # Git
 alias ga="git add"
+alias gitmodinit="git submodule update --init --recursive"
 
 # Docker
 alias dk="docker"
