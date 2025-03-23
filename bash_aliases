@@ -39,7 +39,7 @@ alias sbh="source ~/.bashrc"
 alias szs="source ~/.zshrc"
 
 # Antlr
-alias antlr4='java -jar /usr/local/lib/antlr-4.7.1-complete.jar'
+alias antlr4='java -jar /usr/local/lib/antlr-4.13.1-complete.jar'
 alias grun='java org.antlr.v4.gui.TestRig'
 
 # Tmux
@@ -63,3 +63,7 @@ alias lscmake="cmake --build . --target help"
 # Memgraph
 alias fire="sudo runuser -l memgraph -c '/usr/lib/memgraph/memgraph --also-log-to-stderr'"
 alias fired="docker run -it --rm -p 7687:7687 memgraph --telemetry-enabled=False --also-log-to-stderr --log-level=TRACE"
+
+# LLM
+# NOTE: pXYZ stands for promptXYZ
+alias pllama3="ollama run llama3"
